@@ -1,0 +1,19 @@
+{
+    "heading": {
+        "menu": {
+            "one": "Projects",
+            "two": "Reports",
+            "three": "Blog"
+        }
+    },
+    "footer": {
+        "credits": "Copyright Steem Inc. All Rights Reserved.",
+        "menu": {
+            "one": "Projects",
+            "two": "Reports",
+            "three": "Blog"
+        }
+    },
+    "landing": {
+    }
+}

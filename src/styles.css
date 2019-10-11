@@ -1,0 +1,157 @@
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white !important;
+  background-image: url('./assets/landing-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+body, html {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.content {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 0rem;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-gap: 2rem;
+    margin: 0rem 0rem 3rem;
+    width: 100%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    margin: 0rem 0rem 3rem;
+    width: 100%;
+  }
+}
+.logo {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  border: solid 2px #fafafa;
+}
+
+.full {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .content {
+    width: 90%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .content {
+    width: 80%;
+  }
+  .mobile {
+    display: none;
+  }
+  .full {
+    display: block;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .content {
+    width: 60%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .content {
+    width: 50%;
+  }
+}
+
+.justified {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-1 {
+  font-size: 200%;
+  margin-bottom: 2rem;
+}
+
+.heading-2 {
+  font-size: 170%;
+  margin-bottom: 2rem;
+}
+.heading-3 {
+  font-size: 140%;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-size: 120%;
+  margin-bottom: 2rem;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.small * {
+  font-size: 80%;
+}
+
+.small > {
+  font-size: 80%;
+}
+
