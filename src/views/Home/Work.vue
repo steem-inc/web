@@ -32,7 +32,8 @@
         <div class="action">
           <zi-button 
             shadow 
-            type="success">Solutions</zi-button>
+            type="success"
+            @click="goSolutions">Solutions</zi-button>
         </div>
       </div>
   
@@ -57,6 +58,11 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    goSolutions () {
+      window.open("https://steemstudios.com");
+    }
   }
 };
 </script>

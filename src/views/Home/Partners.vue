@@ -33,7 +33,7 @@
           <zi-button 
             shadow 
             type="success"
-            @click="goToBlog()">Partnership</zi-button>
+            @click="goPartners()">Partnership</zi-button>
         </div>
       </div>
   
