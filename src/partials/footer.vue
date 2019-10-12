@@ -7,7 +7,7 @@
       <div>
         <router-link to="/about" >About</router-link> &nbsp;|
         <a 
-          href="https://steemsolutions.com" 
+          href="https://steemstudios.com" 
           target="_blank">Solutions</a> |&nbsp;
         <a 
           href="https://steemian.net" 
