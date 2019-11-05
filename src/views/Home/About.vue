@@ -8,7 +8,7 @@
         <div class="about-sections">
     
           <div>
-            <div class="heading">About us</div>
+            <div class="heading-1">About us</div>
             <div class="description">
               Steem is our business. We build, smart modern entreprise apps on the Steem blockchain for the everyday Internet user. 
               Our <a 
@@ -44,7 +44,8 @@
     
             <div class="action">
               <zi-button 
-                shadow 
+                v-if="false" 
+                shadow
                 type="success"
                 @click="goCommunity()">Join our open community</zi-button>
             </div>

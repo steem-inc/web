@@ -15,8 +15,7 @@ module.exports = {
       .set("@router", path.resolve(__dirname, "src/router"))
       .set("@constants", path.resolve(__dirname, "src/constants"))
       .set("@assets", path.resolve(__dirname, "src/assets"))
-  }
-  /*,
+  },
   configureWebpack: config => {
     if (process.env.NODE_ENV === "production") return {
       plugins: [
@@ -41,5 +40,4 @@ module.exports = {
       ]
     }
   }
-  */
 }

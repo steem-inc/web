@@ -31,7 +31,8 @@
 
         <div class="action">
           <zi-button 
-            shadow 
+            v-if="false" 
+            shadow
             type="success"
             @click="goSolutions">Solutions</zi-button>
         </div>
